@@ -11,6 +11,9 @@ metadata:
     - tanzu
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app-vscode'
+  links:
+    - url: http://tanzu-java-web-app-vscode.default.tap.demo.jg-aws.com/
+      title: App Home Page
 spec:
   type: service
   lifecycle: experimental
